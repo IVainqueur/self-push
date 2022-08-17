@@ -9,4 +9,5 @@ git config --global user.name "IVainqueur"
 
 git add .
 eval "git commit -m 'Automatic log - $today'"
+git branch -M main
 git push origin main
