@@ -12,6 +12,8 @@ if [ "$NUM" = "" ] || [ "$NUM " -lt 0 ]; then
     NUM=10
 fi
 
+today=$(date +'%Y-%m-%d %k:%M:%S')
+
 for i in $( seq 1 $NUM )
 do
     echo "$i .. " >> log.txt
