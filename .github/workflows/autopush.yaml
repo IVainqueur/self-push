@@ -1,0 +1,14 @@
+name: Push upon self
+
+on:
+  schedule:
+      - cron: "*/5 * * * *"
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test echo
+        run: echo what up mn, $GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
