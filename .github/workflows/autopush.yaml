@@ -3,7 +3,7 @@ name: Push upon self
 on:
     # Triggers the workflow every 5 minutes
     schedule:
-        - cron: "*/2 * * * *"
+        - cron: "14 0 * * *"
 
           # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,7 +16,7 @@ jobs:
         steps:
             # Runs a single command using the runners shell
             - uses: actions/checkout@v3
-            
+
             - name: Run a one-line script
               run: ./log.sh
               env:
