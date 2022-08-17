@@ -6,8 +6,18 @@ eval $logs >> log.txt
 
 git config --global user.email "ishimvainqueur@gmail.com"
 git config --global user.name "IVainqueur"
-
-git add .
-eval "git commit -m 'Automatic log - $today'"
 git branch -M main
-git push origin main
+
+if [ "$NUM" = "" ] || [ "$NUM " -lt 0 ]; then
+    NUM=10
+fi
+
+for i in $( seq 1 $NUM )
+do
+    echo "$i .. " >> log.txt
+    git add .
+    eval "git commit -m 'Automatic log - $today'"
+    git push origin main
+done
+
+
