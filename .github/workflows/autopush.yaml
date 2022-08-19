@@ -1,7 +1,7 @@
 name: Push upon self
 
 on:
-    # Triggers the workflow every 5 minutes
+    # Triggers the workflow every 00:14 UTC
     schedule:
         - cron: "42 0 * * *"
 
