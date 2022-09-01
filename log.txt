@@ -5,7 +5,7 @@
 commit 2786ebbb8026421b46d657f6613107fa99e118dd
 Author: ISHIMWE Vainqueur <65293976+IVainqueur@users.noreply.github.com>
 Date:   Wed Aug 17 11:26:48 2022 +0200
-
+   
     Update log.sh
 
 ============== Wed 17 Aug 2022 12:16:41 PM CAT =====================
