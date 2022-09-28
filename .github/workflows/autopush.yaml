@@ -20,4 +20,5 @@ jobs:
             - name: Run a one-line script
               run: ./log.sh
               env:
-                GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  NUM: 10

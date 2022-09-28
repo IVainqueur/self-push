@@ -1,7 +1,7 @@
 #!/bin/sh
 today=$(date +'%Y-%m-%d 00:00')
 logs="git log --since='${today}'"
-echo "\n============== $(date) =====================\n" >> log.txt
+echo "\n============== $(date) =====================" >> log.txt
 eval $logs >> log.txt
 
 git config --global user.email "ishimvainqueur@gmail.com"
