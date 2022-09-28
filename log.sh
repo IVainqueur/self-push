@@ -1,7 +1,7 @@
 #!/bin/sh
 today=$(date +'%Y-%m-%d 00:00')
 logs="git log --since='${today}'"
-echo "\n============== $(date) =====================\n\n" >> log.txt
+echo "\n============== $(date) =====================\n" >> log.txt
 eval $logs >> log.txt
 
 git config --global user.email "ishimvainqueur@gmail.com"
@@ -16,7 +16,7 @@ today=$(date +'%Y-%m-%d %k:%M:%S')
 
 for i in $( seq 1 $NUM )
 do
-    echo "$i .. " >> log.txt
+    printf "$i .. " >> log.txt
     git add .
     eval "git commit -m 'Automatic log - $today'"
     git push origin main
