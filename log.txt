@@ -354,3 +354,10 @@ Date:   Tue Dec 20 12:48:37 2022 +0200
 
     [fix] typo
 1 .. 2 .. 3 .. 4 .. 5 .. 6 .. 7 .. 8 .. 9 .. 10 .. 
+============== Tue Dec 20 10:54:39 UTC 2022 =====================
+commit 2d3ffd1607d1831eaff376f7d8e71fbb296c4cee
+Author: Bruce_Rutagengwa <96545712+RUTAGENGWA-ASANTE-BRUCE@users.noreply.github.com>
+Date:   Tue Dec 20 12:54:22 2022 +0200
+
+    [feat] adding way to contribute
+1 .. 2 .. 3 .. 4 .. 5 .. 6 .. 7 .. 8 .. 9 .. 10 .. 
