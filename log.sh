@@ -7,8 +7,8 @@ logs="git log --since='${today}'"
 echo "\n============== $(date) =====================" >> log.txt
 eval $logs >> log.txt
 
-git config --global user.email "ishimvainqueur@gmail.com"
-git config --global user.name "IVainqueur"
+eval "git config --global user.email $USER_EMAIL"
+eval "git config --global user.name $USERNAME"
 git branch -M main
 
 
