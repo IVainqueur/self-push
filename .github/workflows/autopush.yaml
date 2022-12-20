@@ -7,9 +7,9 @@ on:
     push:
         branches: [main]
 env:
-    USERNAME: { { secrets.USERNAME } }
+    USERNAME: ${{ secrets.USERNAME }}
     USER_EMAIL:
-        { { secrets.USER_EMAIL } }
+        ${{ secrets.USER_EMAIL }}
 
         # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
