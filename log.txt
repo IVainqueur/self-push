@@ -360,4 +360,4 @@ Author: Bruce_Rutagengwa <96545712+RUTAGENGWA-ASANTE-BRUCE@users.noreply.github.
 Date:   Tue Dec 20 12:54:22 2022 +0200
 
     [feat] adding way to contribute
-1 .. 2 .. 
+1 .. 2 .. 3 .. 
