@@ -369,4 +369,4 @@ Date:   Tue Dec 20 12:55:55 2022 +0200
     Merge pull request #2 from RUTAGENGWA-ASANTE-BRUCE/main
     
     [feat] updating README
-1 .. 2 .. 3 .. 4 .. 5 .. 6 .. 
+1 .. 2 .. 3 .. 4 .. 5 .. 6 .. 7 .. 
